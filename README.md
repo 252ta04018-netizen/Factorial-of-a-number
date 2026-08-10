@@ -1,2 +1,7 @@
-# Factorial-of-a-number
-This program calculates the factorial of a given number by multiplying all positive integers from 1 to n. Example: 5! = 5 × 4 × 3 × 2 × 1 = 120.
+n = int(input("Enter a number: "))
+fact = 1
+
+for i in range(1, n + 1):
+    fact = fact * i
+
+print("Factorial =", fact)
